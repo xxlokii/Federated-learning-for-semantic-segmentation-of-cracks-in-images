@@ -12,25 +12,25 @@ The project's documentation is organized as follows:
 
 ```
 .
-├── SematicSeg_Dataset					--Asphalt Cracks
-�?   ├── Labels
-�?   └── Original Image
-├── concreteCrackSegmentationDataset	--Concrete Cracks
-�?   ├── BW
-�?   └── rgb
-├── tmp
-�?   ├── test_image_paths.txt
-�?   └── test_mask_paths.txt
-├── .gitignore
-├── Models.py
-├── README.md
-├── T1-v4.ipynb							--Pipeline for the Semantic Segmentation Part
-├── clients.py
-├── getData.py
-├── requirements.txt					--Package Required for the Project
-├── script.sh							--Script to Run the Experiment
-├── server.py
-├── utils.py
+SematicSeg_Dataset					--Asphalt Cracks
+    |------Labels
+    |------Original Image
+concreteCrackSegmentationDataset	--Concrete Cracks
+    |-------BW
+    |-------rgb
+output
+    |-------test_image_paths.txt
+    |-------test_mask_paths.txt
+.gitignore
+Models.py
+README.md
+T1-v4.ipynb							--Pipeline for the Semantic Segmentation Part
+clients.py
+getData.py
+requirements.txt					--Package Required for the Project
+script.sh							--Script to Run the Experiment
+server.py
+utils.py
 ```
 
 The `.py` file in the root directory fully implements the semantic segmentation and federation learning pipeline. 
