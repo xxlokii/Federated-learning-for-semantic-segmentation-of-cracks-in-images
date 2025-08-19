@@ -22,8 +22,6 @@ class WeightedFocalLoss(nn.Module):
 
 
 # dice loss
-
-
 class DiceLoss(nn.Module):
     def __init__(self, smooth=1):
         super(DiceLoss, self).__init__()
@@ -39,8 +37,6 @@ class DiceLoss(nn.Module):
 
 
 # evalution metri
-
-
 class SegmentationMetric(object):
     def __init__(self, numClass):
         self.numClass = numClass
