@@ -21,10 +21,11 @@ concreteCrackSegmentationDataset	--Concrete Cracks
 output
     |-------test_image_paths.txt
     |-------test_mask_paths.txt
+
 .gitignore
 Models.py
 README.md
-T1-v4.ipynb							--Pipeline for the Semantic Segmentation Part
+testSegModel.ipynb				    --Pipeline for the Semantic Segmentation Part
 clients.py
 getData.py
 requirements.txt					--Package Required for the Project
