@@ -17,7 +17,7 @@ SematicSeg_Dataset					--Asphalt Cracks
 concreteCrackSegmentationDataset	--Concrete Cracks
     |-------BW
     |-------rgb
-output
+output                              --Testing files
     |-------test_image_paths.txt
     |-------test_mask_paths.txt
 
