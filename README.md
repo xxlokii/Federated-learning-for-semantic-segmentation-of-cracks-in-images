@@ -101,6 +101,9 @@ Includes the evaluation metrics we implemented for WeightedFocalLoss, DiceLoss a
 visualization of the raw data and model prediction.<br>
 <img src="output\res.png" />
 
+F1 score evaluation.<br>
+<img src="output\evaluation.png" />
+
 
 ## Summary
 To address the challenge of detecting cracks in damaged infrastructure images, we designed and implemented an image semantic segmentation task based on a U-Net model. This approach significantly enhanced the level of automation and accuracy in infrastructure damage detection.
