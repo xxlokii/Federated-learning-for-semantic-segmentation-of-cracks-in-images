@@ -96,6 +96,13 @@ Includes the U-Net model that we use in semantic segmentation
 Includes the evaluation metrics we implemented for WeightedFocalLoss, DiceLoss and results such as precision and recall
 
 
+## Result visualization 
+
+visualization of the raw data and model prediction.<br>
+<img src="output\res.png" />
 
 
+## Summary
+To address the challenge of detecting cracks in damaged infrastructure images, we designed and implemented an image semantic segmentation task based on a U-Net model. This approach significantly enhanced the level of automation and accuracy in infrastructure damage detection.
 
+Building on this, we combined federated learning with image semantic segmentation to create a high-precision model for detecting building cracks that also protects data privacy. In a simulated multi-party collaborative setting, this model achieved a remarkable F1 score of 0.85 under both IID and Non-IID data environments, demonstrating its robust adaptability to various users and environmental conditions.
