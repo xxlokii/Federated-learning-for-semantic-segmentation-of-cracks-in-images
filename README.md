@@ -24,7 +24,7 @@ output                              --Testing files
 .gitignore
 README.md
 Models.py                           --U-Net Model for Semantic Segmentation
-testSegModel.ipynb				    --Pipeline for the Semantic Segmentation Part
+testSegModel.ipynb				    --Pipeline for the Semantic Segmentation Part（demo）
 clients.py                          --Client Class for the Federated Learning
 getData.py                          --Data Pre-processing and Distribution
 requirements.txt					--Package Required for the Project
@@ -99,7 +99,7 @@ Includes the evaluation metrics we implemented for WeightedFocalLoss, DiceLoss a
 ## Result visualization 
 
 visualization of the raw data and model prediction.<br>
-<img src="output\res.png" />
+<img src="output\result.png" />
 
 F1 score evaluation.<br>
 <img src="output\evaluation.png" />
