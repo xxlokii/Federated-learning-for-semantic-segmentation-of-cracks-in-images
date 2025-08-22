@@ -99,7 +99,7 @@ Includes the evaluation metrics we implemented for WeightedFocalLoss, DiceLoss a
 ## Result visualization 
 
 visualization of the raw data and model prediction.<br>
-<img src="output/result.png" style="margin-left: 300px;" />
+<img src="output/result.png" style="margin-left: 10%;" />
 
 
 
